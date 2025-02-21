@@ -1,9 +1,9 @@
-function sayHello() {
+exports.sayHello = function() {
     console.log("Hello, World!");
 }
 
-function sayHi() {
+exports.sayHi = function() {
     console.log("Hi, there!");
 }
 
-module.exports = { sayHello, sayHi };
+exports.myVariable = "This is a variable";
