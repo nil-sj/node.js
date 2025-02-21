@@ -1,3 +1,4 @@
 console.log("testing...");
-const sayHello = require("./module");
-sayHello();
+const myModule = require("./module");
+myModule.sayHello();
+myModule.sayHi();
