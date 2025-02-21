@@ -1,6 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
+    console.log("Requested URL:", req.url);
     console.log(req.headers);
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/html");
